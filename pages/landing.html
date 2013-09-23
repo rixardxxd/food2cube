@@ -1,43 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-    <meta charset="utf-8">
+		<meta charset="utf-8">
 		<title>FOOD2CUBE</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="assets/bootstrap.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
 		<link href="landing.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Finger+Paint|Quattrocento+Sans' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<div class="navbar navbar-fixed-top">
+		<div class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
-				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</a>
-
-				<a href="#" class="brand">Food2Cube</a>
-				
-				<div class="nav-collapse">
-					<ul class="nav pull-right">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand logo">Food2Cube</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right signinup">
 						<li>
-							<a href="#">Sign In</a>
+							<a href="#" class="signin">Sign In</a>
 						</li>
 						<li>
-							<a href="#">Sign Up</a>
+							<a href="#" class="signup">Sign Up</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
 
-		<div class="f2c-content">
+		<!-- <div class="pt-main pt-perspective"> -->
+			<!-- page 1 -->
+			<!-- <div class="pt-page pt-page-1 pt-page-current"> -->
+				<div class="container">
+					<div class="banner">
+						<h3>Enjoy local food and pick up just downstairs<br>at your company!</h3>
+					</div>
+
+					<div class="companies">
+						<div class="col-md-6">
+							<center>
+									<a href="#" class="company" id="oracle">
+										<img alt="Oracle" src="assets/oracle.jpg">
+									</a>
+							</center>
+						</div>
+						<div class="col-md-6">
+							<center>
+									<a href="#" class="company more">
+										coming<br>soon...
+									</a>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- page 2 -->
+			<!-- <div class="pt-page pt-page-2">
+				<div class="container">
+					page2
+				</div>
+			</div> -->
 		</div>
-		<div class="f2c-footer">
-		</div>
+
+		
     
-		<script src="assets/jquery.js"></script>
-		<script src="assets/bootstrap.min.js"></script>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 	</body>
 </html>
