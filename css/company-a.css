@@ -10,11 +10,14 @@ body {
 /*navbar*/
 .logo {
     font-family: 'Finger Paint', cursive;
-    color: #BF0000 !important;
+    color: #cc3333 !important;
     font-size: 26px;
 }
 .signinup {
     font-family: 'Quattrocento Sans', sans-serif;
+}
+.signinup .signin, .signinup .signup {
+    color: #990000 !important;
 }
 
 /*modal*/
@@ -34,26 +37,76 @@ body {
     font-family: 'Quattrocento Sans', sans-serif;
 }
 
+
+/*banner*/
+.banner {
+    width: 100%;
+    padding: 20px 20% 20px 18%;
+    display: inline-block;
+    background-color: #ff6666;
+    color: #ffffff;
+}
+.banner h3, .banner h4 {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.banner img {
+    width: 200px;
+    height: 120px;
+}
+
+
 /*content*/
 .container {
     height: 100%;
 }
 .choose-text{
     margin-left: 10%;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    margin-top: 50px;
+    padding-bottom: 20px;
 }
-.choose-text h4 {
+.choose-text h3 {
     font-family: 'Quattrocento Sans', sans-serif;
-    color: brown;
+    color: #cc3333;
 }
 
 .restaurants {
     margin-left: 10%;
     height: 100%;
 }
-
+.restaurant {
+    width: 300px;
+    height: 250px;
+    display: inline-block;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    position: relative;
+}
 .restaurant .restaurant-pic {
     width: 300px;
-    height: 300px;
+    height: 250px;
+    box-shadow: 0 0 1.5rem hsla(0, 100%, 0%, .4)
 }
+.restaurant h5 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 5px;
+    background-color: #ff6666;
+    opacity: 0.7;
+    color: #990000;
+    line-height: 30px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    -webkit-transition: top 0.2s ease-out;
+    top: 205px;
+    overflow: hidden;
+}
+.restaurant h5:hover, .restaurant h5:visited {
+    color: #ffffff;
+}
+.restaurant:hover h5 {
+    top: 170px;
+    color: #ffffff;
+}
+
