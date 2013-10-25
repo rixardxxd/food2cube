@@ -22,6 +22,6 @@ angular.module('food2cubeApp')
         }).error(function (data, status, headers, config) {
             //TODO: Show error message
         });
-      }
+      },
     };
   }]);
